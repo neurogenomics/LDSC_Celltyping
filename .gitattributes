@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.snplist filter=lfs diff=lfs merge=lfs -text

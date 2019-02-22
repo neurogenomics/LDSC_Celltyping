@@ -1,0 +1,27 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.0
+* (C) 2014-2015 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--out PGC_ASD_Nov2017 \
+--merge-alleles /nas/longleaf/home/nskene/LDSC_Celltyping/w_hm3.snplist \
+--N 46351.0 \
+--sumstats /PGC_ASD_Nov2017 
+
+
+ERROR converting summary statistics:
+
+Traceback (most recent call last):
+  File "/nas/longleaf/home/nskene/LDSC/munge_sumstats.py", line 545, in munge_sumstats
+    file_cnames = read_header(args.sumstats)  # note keys not cleaned
+  File "/nas/longleaf/home/nskene/LDSC/munge_sumstats.py", line 127, in read_header
+    return [x.rstrip('\n') for x in openfunc(fh).readline().split()]
+IOError: [Errno 2] No such file or directory: '/PGC_ASD_Nov2017'
+
+
+Conversion finished at Thu Mar 29 03:31:16 2018
+Total time elapsed: 0.01s

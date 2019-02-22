@@ -1,0 +1,53 @@
+Filename,AnnotName
+Education_trait_1.txt,Academic Achievement (UK Biobank)
+HI.txt,Household Income (UK Biobank)
+Alzh_IGAP_stage_1.txt,Alzheimer's Disease
+BIPOLAR_daner_PGC_BIP32b_mds7a.BIP25_noboma.gz,Bipolar Disorder
+scz2.snp.results.txt,Schizophrenia (PGC 2014)
+schiz.qjecp.clozukpgc2.gz,Schizophrenia (CLOZUK)
+EUR.CD.gwas_info03_filtered.assoc,Crohn's Disease
+EduYears_Main.txt,Years in Education
+GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt,Height
+ADHD.pgc.adhd.full.2012-10.txt,ADHD (PGC)
+MDD.pgc.mdd.full.2012-04.txt,Major Depression
+SubjectiveWellBeing.SWB_Full.txt.gz,Subjective Wellbeing
+DepressiveSymptoms.DS_Full.txt.gz,Depressive Symptoms
+EUR.IBD.gwas_info03_filtered.assoc,Inflammatory bowel disease
+EUR.UC.gwas_info03_filtered.assoc,Ulcerative Colitis
+Eating.Disorders.pgc.an.snp.all.13May2016.txt,Eating Disorders
+GPC-1.NEO-AGREEABLENESS.full.txt,Neo-agreeableness
+GPC-1.NEO-OPENNESS.full.txt,Neo-openness
+Type2diabetes_DIAGRAMv3.2012DEC17.txt,Type 2 Diabetes
+Smoking_EverVnever_tag.evrsmk.tbl,Smoking (never vs ever)
+Smoking_CurrentVformer_tag.former.tbl,Smoking (current vs former)
+GPC-1.NEO-NEUROTICISM.full.txt,Neuroticism
+GPC-1.NEO-EXTRAVERSION.full.txt,Neo-extraversion
+GPC-1.NEO-CONSCIENTIOUSNESS.full.txt,Neo-conscientiousness
+GPC-2.EXTRAVERSION.full.txtMOD,Extraversion
+GPC-2.NEUROTICISM.full.txtMOD,Neuroticism
+MIGRAINE_any_mig.gwama_.out.BETAonly.txt,Migraine
+InfantHeadCircumference_EGG_HC_DISCOVERY_CLEANED.txt,Infant Head Circumference
+Parkinsons_phs000089.txt.sumstats,Parkinsons
+als.2016.txt,Amyotrophic lateral sclerosis
+EAGLE_20151029_n10k_GC1_Psort_WITHSNPLOC.tbl,ADHD (Eagle)
+iq_MOD.txt,IQ
+BMI.SNPadjSMK.CombinedSexes.EuropeanOnly.txt,BMI adjusted for smoking (both genders)
+BMI.SNPadjSMK.Men.EuropeanOnly.txt,BMI adjusted for smoking (Male)
+BMI.SNPadjSMK.Women.EuropeanOnly.txt,BMI adjusted for smoking (Female)
+IQ.Sneikers2016.sumstats.txt,IQ (Sneikers 2017)
+GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt.gz,Height (GIANT 2014)
+BroadABC_METALoutput__Males.tbl,Antisocial Behaviour (Male)
+BroadABC_METALoutput_Females.tbl,Antisocial Behaviour (Female)
+BroadABC_METALoutput_Combined.tbl,Antisocial Behaviour (Combined)
+Schiz_Clozuk.txt ,Schiz (CLOZUK)
+EduYears_Main.txt.gz, Years in Education (Obkay et al. 2016)
+BIPOLAR_daner_PGC_BIP32b_mds7a.BIP25_noboma.txt,Bipolar Disorder
+ParkinsonsSumStats2018_23andMe.tab,Parkinsons (23andMe)
+2040_RiskTaking_UKBB.assoc.tsv,Risk Taking (UKBB)
+2030_GuiltyFeelings_UKBB.assoc.tsv,Guilty Feelings (UKBB)
+iPSYCH-PGC_ASD_Nov2017,Autism (PGC 2017)
+CLOZUK_PGC2noclo.METAL.assoc.dosage.fix,Schizophrenia (CLOZUK)
+IQ.Sniekers.2017.txt,IQ (Sneikers et al, 2017)
+EUR.IBD.gwas_info03_filtered.assoc_edited,IBD
+GWAS_EA_excl23andMe.txt,Educational Attainment
+GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq_WITHSNPLOC.txt,Height
