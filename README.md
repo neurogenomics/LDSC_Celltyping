@@ -1,7 +1,7 @@
-What is contained in the repo:
+# What is contained in the repo:
 The primary function performed is to check designated folders for celltype data files & GWAS summary statistics. LDSC annotations are then created, for all celltype data files. All summary statistics within the folder are munged. Heritability is partitioned for each decile of specificity, for each celltype, for each GWAS. Results are then collated and graphed.
 
-What's the order to run scripts to perform the main analysis:
+# What's the order to run scripts to perform the main analysis:
     InitVars.sh
     Run_Step0_PrepTemplate.sh
     Run_Step1a_CheckCelltypeNames.sh
@@ -12,10 +12,10 @@ What's the order to run scripts to perform the main analysis:
     Run_Step4_CellTypeAnalysis.sh
     Run_Step5_GetSummaryStatsOnServer.r
 
-Ignore anything starting with:
+## Ignore anything starting with:
     RunGeneList_
 
-What are the main scripts:
+# What are the main scripts:
 1. InitVars.sh
     1. This file needs to be run to set paths
 2. create_LDSC_annot.r
@@ -23,13 +23,13 @@ What are the main scripts:
 3. Run_Step0_PrepTemplate.sh
     1. Needs to be run as a one off... has some explanation inside it's comments
 
-Expected folder structure:
+# Expected folder structure:
 * Creates some folders in $HOME and others on $SCRATCH
 * GWAS summary statistics files:
     * export SUMSTATS_FOLDER=$HOME/GWAS_SumStats/Edited
     * export MUNGED_FOLDER=$SCRATCH/GWAS_SumStats/Munged
 
-Known problems:
+# Known problems:
 * InitVars script needs to be modified to create folders as well as just creating variables pointing to them
     * The info in InitVars.sh would tell you which folders are expected to be there
     * This script should also download the LDSC software and associated files, if they are not already there
@@ -59,7 +59,7 @@ Known problems:
     * Assign SNPs within those windows as within that gene
     * Zijing know's a python function that can do this quickly
 
-Suggested plan:
+# Suggested plan:
 * Instead of modifying InitVars, instead move towards usage of Docker:
     * Use this dockerfile as the template:
         * https://hub.docker.com/r/manninglab/ldsc/dockerfile
